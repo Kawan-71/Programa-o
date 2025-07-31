@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+:root{
+    --cor-principal: green;
+}
+p{
+    color: var(--cor-principlal)
+}
+
+h1{
+     font-family: "Parisienne", cursive;
+     color: red
+}
+
+#titulo-principal{
+    color: blue;
+}
+
+.topicos{
+    color: rgb(109, 8, 109);
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+a:visited{
+color: darkred;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.especial:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
