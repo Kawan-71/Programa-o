@@ -1,0 +1,71 @@
+/* Estilo geral */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* tom azul claro que remete a praia */
+  color: #004d40;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #00acc1;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Lista de destinos */
+.destinos {
+  margin: 30px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.destinos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.destinos li {
+  background-color: #b2ebf2;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+/* Imagem */
+.imagem-destino {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Link de reserva */
+footer {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.botao-reserva {
+  background-color: #00796b;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.botao-reserva:hover {
+  background-color: #004d40;
+}
